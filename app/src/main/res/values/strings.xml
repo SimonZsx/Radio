@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Radio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Record_Button_String">按住录音</string>
+    <string name="introduction">Welcome toYunba Radio</string>
+</resources>
