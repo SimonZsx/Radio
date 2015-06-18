@@ -36,8 +36,8 @@ public class MainActivity extends ActionBarActivity {
 
 
     private final static String TAG = "YunBaApplication";
-    private static String requestURL = "http://112.74.99.206:8888/upload";
-    private static String downloadURL = "http://112.74.99.206:8888/files/";
+    private static String requestURL = "your HTTP POST request url";
+    private static String downloadURL = "your HTTP GET request url";
 
     private TextView info;
     private File transfer;
