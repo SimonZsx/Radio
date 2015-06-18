@@ -38,15 +38,15 @@ public class UploadUtil {
             conn.setDoOutput(true);
             conn.setUseCaches(false);
             conn.setRequestMethod("POST");
-            conn.setRequestProperty("Host","f2.yunba.io:8888");
+            conn.setRequestProperty("Host","your upload url：port num"); // example abc.bbb.com:8888
             //conn.setRequestProperty("Charset", CHARSET);
             conn.setRequestProperty("Connection", "keep-alive");
-            conn.setRequestProperty("Origin","f2.yunba.io:8888");
+            conn.setRequestProperty("Origin","your upload url: port num");
             conn.setRequestProperty("User-Agent","Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36");
             conn.setRequestProperty("Content-Type", CONTENT_TYPE + "; boundary=" + BOUNDARY);
             conn.setRequestProperty("Accept","*/*");
             conn.setRequestProperty("DNT","1");
-            conn.setRequestProperty("Referer","http://f2.yunba.io:8888/files/example.html");
+            conn.setRequestProperty("Referer","not necessary");
             conn.setRequestProperty("Accept-Encoding","gzip, deflate");
             conn.setRequestProperty("Accept-Language","zh-CN,zh;q=0.8,en;q=0.6");
             if(file!=null)
